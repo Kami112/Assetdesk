@@ -1,0 +1,15 @@
+# Public demo (free plan, sample data, resets itself).
+# For real company data, see "Deploy for your company" in README.md.
+services:
+  - type: web
+    runtime: node
+    name: assetdesk-demo
+    plan: free
+    buildCommand: npm ci --omit=dev
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: DEMO_MODE
+        value: "true"
+      - key: NODE_VERSION
+        value: "22"
