@@ -2,7 +2,7 @@
 
 AssetDesk is an IT asset and software license inventory for small and mid-size IT teams. It tracks which device is with which employee, which warranties and licenses are running out, and what the hardware is worth today. Every change goes into an activity log.
 
-**Live demo:** sign in with one of the demo accounts on the login page. The data is fictional and resets every 6 hours.
+**Live demo:** https://assetdesk-dvy0.onrender.com (sign in with one of the demo accounts on the login page. The data is fictional and resets every 6 hours.)
 
 ## Features
 
